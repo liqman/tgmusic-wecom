@@ -11,7 +11,7 @@ services:
       - "18000:18000"
     volumes:
       # 只读挂载项目内配置（请先在宿主机编辑好 config.ini）
-      - ./config.ini:/app/config.ini:ro
+      - ./data/config.ini:/app/config.ini:ro
       # 持久化下载目录（与 config.ini [settings] download_directory 对应）
       - ./music:/music
       # 保存 Telegram 会话文件（建议在 config.ini 中将 session_name 设置为 data/tg_music_cli）
