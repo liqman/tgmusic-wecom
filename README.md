@@ -37,7 +37,7 @@ docker compose up -d
 
 ```
 docker run -d --name wecom-bridge \
-  -p 8000:8000 \
+  -p 18000:18000 \
   -e TZ=Asia/Shanghai \
   -v $(pwd)/data/config.ini:/app/config.ini:ro \
   -v $(pwd)/music:/music \
