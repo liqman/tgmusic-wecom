@@ -40,7 +40,7 @@ docker compose up -d
 docker run -d --name wecom-bridge \
   -p 8000:8000 \
   -e TZ=Asia/Shanghai \
-  -v $(pwd)/config.ini:/app/config.ini:ro \
+  -v $(pwd)/data/config.ini:/app/config.ini:ro \
   -v $(pwd)/music:/music \
   -v $(pwd)/data:/app/data \
   --restart unless-stopped \
