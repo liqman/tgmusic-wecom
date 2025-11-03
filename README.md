@@ -6,7 +6,7 @@
 建议的宿主机目录结构：
 
 - 项目根目录
-  - `config.ini`（配置文件，必须存在）
+  - `data/config.ini`（配置文件，必须存在）
   - `data/`（保存 Telegram 会话等数据）
   - `downloads/`（下载歌曲保存目录，可自定义）
 
