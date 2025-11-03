@@ -30,7 +30,6 @@
 方式一：docker-compose（推荐）
 
 ```
-docker compose build
 docker compose up -d
 ```
 
